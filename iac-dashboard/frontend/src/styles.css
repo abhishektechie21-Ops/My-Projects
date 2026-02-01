@@ -1,0 +1,199 @@
+body {
+  margin: 0;
+  background: #f9fafb;
+  color: #111827;
+  font-family: Inter, system-ui, sans-serif;
+}
+
+/* App */
+.app {
+  padding: 32px 40px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.logo-mark {
+  color: #22c55e;
+}
+
+.subtitle {
+  color: #6b7280;
+}
+
+/* Actions */
+.actions {
+  margin: 24px 0;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+button {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: none;
+  background: #e5e7eb;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d1d5db;
+}
+
+.danger {
+  background: #dc2626;
+  color: white;
+}
+
+.status {
+  margin-left: auto;
+  font-weight: 600;
+}
+
+.status.success {
+  color: #16a34a;
+}
+
+.status.failed {
+  color: #dc2626;
+}
+
+/* Layout */
+.content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 24px;
+}
+
+/* Logs */
+.logs {
+  background: #020617;
+  color: #e5e7eb;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.logs-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.log-output {
+  margin-top: 16px;
+  white-space: pre-wrap;
+  color: #22c55e;
+  font-size: 14px;
+}
+
+/* History */
+.history {
+  background: #020617;
+  color: #e5e7eb;
+  padding: 20px;
+  border-radius: 14px;
+}
+
+.run-item {
+  margin-top: 12px;
+  padding: 12px;
+  background: #020617;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.badge.success {
+  background: #16a34a;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+}
+
+/* Login Page */
+.login-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle at top, #020617, #000);
+}
+
+.login-card {
+  width: 380px;
+  padding: 36px 32px;
+  background: #020617;
+  color: #e5e7eb;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.65);
+}
+
+/* Title spacing */
+.login-card h2 {
+  margin-bottom: 6px;
+}
+
+.login-card .muted {
+  margin-bottom: 24px;
+}
+
+/* Inputs */
+.login-card input {
+  width: 100%;
+  height: 44px;
+  padding: 0 14px;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  border: 1px solid #1f2937;
+  background: #020617;
+  color: #e5e7eb;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.login-card input::placeholder {
+  color: #9ca3af;
+}
+
+.login-card input:focus {
+  outline: none;
+  border-color: #22c55e;
+  box-shadow: 0 0 0 1px rgba(34, 197, 94, 0.4);
+}
+
+/* Button */
+.login-card button {
+  width: 100%;
+  height: 46px;
+  margin-top: 6px;
+  background: #22c55e;
+  border: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 15px;
+  color: #022c22;
+  cursor: pointer;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.login-card button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(34, 197, 94, 0.4);
+}
+
+/* Hint text */
+.hint {
+  margin-top: 18px;
+  font-size: 12px;
+  color: #9ca3af;
+}
+
