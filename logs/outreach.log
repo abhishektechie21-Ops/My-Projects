@@ -1,0 +1,3 @@
+2026-01-19 20:44:30,638 INFO Generating AI email for spicejet.travels91@gmail.com
+2026-01-19 20:44:32,984 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-19 20:44:37,537 INFO Email sent to spicejet.travels91@gmail.com
